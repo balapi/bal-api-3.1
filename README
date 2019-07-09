@@ -8,7 +8,7 @@ hello_bal - This target builds the supplied example code into an executable call
 
 hello_bal_app - This target builds the supplied example code into an executable called hello_bal_app.
                 The hello_bal_app executable is built against a shared object library that may be built
-                using a BAL R3.0 release package (available from Broadcom under SLA).  This library may also be
+                using a BAL R3.1.0 release package (available from Broadcom under SLA).  This library may also be
                 provided (stripped of symbols) by a Broadcom customer who is authorized to provide it.
                 This shared object library is called libbal_host_api.so (but will be appended with a version number).
                 The hello_bal_app and libbal_host_api.so together can interact with a Broadcom component called 
